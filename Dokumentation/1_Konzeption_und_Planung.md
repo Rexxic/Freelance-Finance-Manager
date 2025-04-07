@@ -179,4 +179,4 @@ class BudgetForecast {
     
 - **Kategorieverwaltung:** Eigene Kategorien erstellen
     
-![[Wireframe Entwurf.png]]
+![](Wireframe%20Entwurf.png)
