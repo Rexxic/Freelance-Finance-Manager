@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "76248b5f6719ebeb",
+    "type": "split",
+    "children": [
+      {
+        "id": "f1a463bd5d015afe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1fd5105f1c24615e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dokumentation/1_Konzeption_und_Planung.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1_Konzeption_und_Planung"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "60458dc81ad21162",
+    "type": "split",
+    "children": [
+      {
+        "id": "53d01e68e2803e54",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "534f941d3ceb0407",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "28007d01674c6297",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9e7794be1bb79d3e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "133b3a4752f79d94",
+    "type": "split",
+    "children": [
+      {
+        "id": "010599fe7082f371",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2d33978d442937c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Dokumentation/1_Konzeption_und_Planung.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 1_Konzeption_und_Planung"
+            }
+          },
+          {
+            "id": "abdac2c278cb69ca",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Dokumentation/1_Konzeption_und_Planung.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 1_Konzeption_und_Planung"
+            }
+          },
+          {
+            "id": "78419b8f074908fc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "005706cfa6b03b86",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Dokumentation/1_Konzeption_und_Planung.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 1_Konzeption_und_Planung"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "534f941d3ceb0407",
+  "lastOpenFiles": [
+    "Dokumentation/Wireframe Entwurf.png",
+    "Dokumentation/UI-Design.md",
+    "Dokumentation/1_Konzeption_und_Planung.md",
+    "README.md",
+    "Dokumentation/1.md",
+    "Dokumentation/1_Projektidee.md",
+    "Dokumentation/1_Zielgruppe.md",
+    "Dokumentation/1_Projektidee 1.md",
+    "Dokumentation/Projekt.md",
+    "Projektidee.md"
+  ]
+}

@@ -29,7 +29,7 @@ Der **Freelance Finance Manager** bietet eine benutzerfreundliche Plattform, um 
 
 ## Projektplanung
 
-### Stufe 1: Konzeption & Planung
+### [Stufe 1: Konzeption & Planung](Dokumentation/1 Konzeption und Planung)✅
 
 - **Projektidee:** Entwicklung eines Finanzmanagers für Freelancer.
 - **Zielgruppenanalyse & Problemdefinition:** Freelancer und Gig-Worker mit variablen Einkommen und komplexen steuerlichen Anforderungen.
