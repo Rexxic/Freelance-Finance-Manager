@@ -180,3 +180,5 @@ class BudgetForecast {
 - **Kategorieverwaltung:** Eigene Kategorien erstellen
     
 ![Wireframe Entwurf](Wireframe%20Entwurf.png)
+
+https://chatgpt.com/share/67f39345-8370-8006-bfb5-295f48385a8b
