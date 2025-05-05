@@ -28,8 +28,9 @@
 │  └── Settings.settings
 ├── README.md
 └── UnitTest-Projekt
+   ├── app.config
+   ├── IncomeRepositoryTests.cs
    ├── packages.config
    ├── Properties
    │  └── AssemblyInfo.cs
-   ├── UnitTest-Projekt.csproj
-   └── UnitTest1.cs
+   └── UnitTest-Projekt.csproj
