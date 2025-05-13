@@ -9,7 +9,7 @@ namespace Freelance_Finance_Manager
     {
         private static readonly string server = "localhost";
         private static readonly string user = "root";
-        private static readonly string password = "";
+        private static readonly string password = "admin123";
         private static readonly string database = "freelance_finance_db";
 
         private static readonly string connectionString = $"Server={server};Uid={user};Pwd={password};";

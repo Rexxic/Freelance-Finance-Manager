@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dokumentation/1_Konzeption_und_Planung.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Konzeption_und_Planung"
+              "title": "README"
             }
           }
         ]
@@ -170,6 +170,10 @@
   },
   "active": "1fd5105f1c24615e",
   "lastOpenFiles": [
+    "Dokumentation/2_DBModellierung_und_Anbindung.md",
+    "Dokumentation/1_Konzeption_und_Planung.md",
+    "README.md",
+    "project-structure.md",
     "UnitTest-Projekt/bin/Debug/de/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
     "UnitTest-Projekt/bin/Debug/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll",
     "UnitTest-Projekt/bin/Debug/de/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
@@ -180,10 +184,8 @@
     "UnitTest-Projekt/obj/Debug/UnitTest-Projekt.dll",
     "UnitTest-Projekt/obj/Debug/UnitTest-Projekt.csproj.CoreCompileInputs.cache",
     "UnitTest-Projekt/obj/Release/UnitTest-Projekt.csproj.AssemblyReference.cache",
-    "UnitTest-Projekt/obj/Release",
     "packages/MSTest.TestFramework.2.2.10/Icon.png",
     "packages/MSTest.TestAdapter.2.2.10/Icon.png",
-    "README.md",
     "packages/Microsoft.NET.Test.Sdk.17.13.0/Icon.png",
     "packages/Microsoft.CodeCoverage.17.13.0/Icon.png",
     "packages/NUnit3TestAdapter.5.0.0/docs/README.md",
@@ -205,7 +207,6 @@
     "packages/System.Runtime.CompilerServices.Unsafe.6.1.0/PACKAGE.md",
     "packages/System.Numerics.Vectors.4.6.0/PACKAGE.md",
     "packages/System.Buffers.4.6.0/PACKAGE.md",
-    "Dokumentation/1_Konzeption_und_Planung.md",
     "packages/MySql.Data.9.3.0/README.md",
     "packages/BouncyCastle.Cryptography.2.5.1/README.md",
     "packages/BouncyCastle.Cryptography.2.5.1/LICENSE.md",
@@ -214,7 +215,6 @@
     "Dokumentation/1_Projektidee.md",
     "Dokumentation/1_Zielgruppe.md",
     "Dokumentation/1_Projektidee 1.md",
-    "Dokumentation/Projekt.md",
-    "Projektidee.md"
+    "Dokumentation/Projekt.md"
   ]
 }

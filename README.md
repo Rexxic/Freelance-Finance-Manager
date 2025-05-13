@@ -36,7 +36,7 @@ Der **Freelance Finance Manager** bietet eine benutzerfreundliche Plattform, um 
 - **Entwurf eines ER-Diagramms und Klassendiagramms** mit Hilfe von KI-Tools.
 - **Planung des User Interface (GUI):** Benutzerfreundliche Oberfläche zur einfachen Erfassung und Visualisierung von Finanzdaten.
 
-### Stufe 2: Datenbankmodellierung & Anbindung
+### [Stufe 2: Datenbankmodellierung & Anbindung](Dokumentation/2_DBModellierung_und_Anbindung.md)✅
 
 - **Erstellung eines relationalen Datenbankschemas** mit SQL.
 - **MySQL-Verbindung in C# implementieren.**

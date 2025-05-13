@@ -55,7 +55,7 @@ namespace Freelance_Finance_Manager
                             {
                                 CategoryID = reader.GetInt32("CategoryID"),
                                 Name = reader.GetString("Name"),
-                                Type = Enum.Parse<CategoryType>(reader.GetString("Type"))
+                                Type = (CategoryType) Enum.Parse(typeof(CategoryType), reader.GetString("Type"))
                             };
                         }
                         return null;
@@ -80,7 +80,7 @@ namespace Freelance_Finance_Manager
                         {
                             CategoryID = reader.GetInt32("CategoryID"),
                             Name = reader.GetString("Name"),
-                            Type = Enum.Parse<CategoryType>(reader.GetString("Type"))
+                            Type = (CategoryType)Enum.Parse(typeof(CategoryType), reader.GetString("Type"))
                         });
                     }
                 }
