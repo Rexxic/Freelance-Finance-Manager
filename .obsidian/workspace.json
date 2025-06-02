@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Dokumentation/3_GUI_und_Benutzerinteraktion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "3_GUI_und_Benutzerinteraktion"
             }
           }
         ]
@@ -170,20 +170,23 @@
   },
   "active": "1fd5105f1c24615e",
   "lastOpenFiles": [
+    "yyu545ue.iz2~",
+    "ldjpnzpx.41a~",
+    "3rf4043f.42h~",
+    "TestResults/DeployCedric 2025-06-02 08_41_06/In/DESKTOP-89E6S84",
+    "TestResults/DeployCedric 2025-06-02 08_41_06/Out",
+    "TestResults/DeployCedric 2025-06-02 08_41_06/In",
+    "TestResults/DeployCedric 2025-06-02 08_41_06",
+    "ndcuufyg.cjq~",
+    "hv04vgb5.dgp~",
+    "README.md",
+    "Dokumentation/3_GUI_und_Benutzerinteraktion.md",
+    "3_GUI_und_Benutzerinteraktion.md",
     "Dokumentation/2_DBModellierung_und_Anbindung.md",
     "Dokumentation/1_Konzeption_und_Planung.md",
-    "README.md",
     "project-structure.md",
     "UnitTest-Projekt/bin/Debug/de/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
     "UnitTest-Projekt/bin/Debug/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll",
-    "UnitTest-Projekt/bin/Debug/de/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
-    "UnitTest-Projekt/bin/Debug/de/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
-    "UnitTest-Projekt/bin/Debug/de/Microsoft.TestPlatform.CoreUtilities.resources.dll",
-    "UnitTest-Projekt/bin/Debug/de/Microsoft.TestPlatform.AdapterUtilities.resources.dll",
-    "UnitTest-Projekt/bin/Debug/de",
-    "UnitTest-Projekt/obj/Debug/UnitTest-Projekt.dll",
-    "UnitTest-Projekt/obj/Debug/UnitTest-Projekt.csproj.CoreCompileInputs.cache",
-    "UnitTest-Projekt/obj/Release/UnitTest-Projekt.csproj.AssemblyReference.cache",
     "packages/MSTest.TestFramework.2.2.10/Icon.png",
     "packages/MSTest.TestAdapter.2.2.10/Icon.png",
     "packages/Microsoft.NET.Test.Sdk.17.13.0/Icon.png",
@@ -212,9 +215,6 @@
     "packages/BouncyCastle.Cryptography.2.5.1/LICENSE.md",
     "Dokumentation/UI-Design.md",
     "Dokumentation/1.md",
-    "Dokumentation/1_Projektidee.md",
-    "Dokumentation/1_Zielgruppe.md",
-    "Dokumentation/1_Projektidee 1.md",
-    "Dokumentation/Projekt.md"
+    "Dokumentation/1_Projektidee.md"
   ]
 }

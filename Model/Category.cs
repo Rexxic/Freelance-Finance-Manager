@@ -28,15 +28,18 @@ namespace Freelance_Finance_Manager
             using (var connection = GetConnection())
             {
                 connection.Open();
-                var query = "INSERT INTO Category (Name, Type) VALUES (@Name, @Type);";
+                var query = "INSERT INTO Category (Name, Type) VALUES (@Name, @Type); SELECT LAST_INSERT_ID();";
                 using (var command = new MySqlCommand(query, connection))
                 {
                     command.Parameters.AddWithValue("@Name", category.Name);
                     command.Parameters.AddWithValue("@Type", category.Type.ToString());
-                    command.ExecuteNonQuery();
+
+                    var insertedId = Convert.ToInt32(command.ExecuteScalar());
+                    category.CategoryID = insertedId; // ID im Objekt setzen
                 }
             }
         }
+
 
         public override Category GetById(int id)
         {
@@ -117,5 +120,34 @@ namespace Freelance_Finance_Manager
                 }
             }
         }
+
+        public Category GetByNameAndType(string name, CategoryType type)
+        {
+            using (var connection = GetConnection())
+            {
+                connection.Open();
+                var query = "SELECT * FROM Category WHERE Name = @Name AND Type = @Type;";
+                using (var command = new MySqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@Name", name);
+                    command.Parameters.AddWithValue("@Type", type.ToString());
+
+                    using (var reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            return new Category
+                            {
+                                CategoryID = reader.GetInt32("CategoryID"),
+                                Name = reader.GetString("Name"),
+                                Type = (CategoryType)Enum.Parse(typeof(CategoryType), reader.GetString("Type"))
+                            };
+                        }
+                        return null;
+                    }
+                }
+            }
+        }
+
     }
 }

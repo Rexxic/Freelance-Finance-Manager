@@ -101,5 +101,31 @@ namespace UnitTest_Projekt
             var fetched = _categoryRepo.GetById(inserted.CategoryID);
             Assert.IsNull(fetched);
         }
+
+        [TestMethod]
+        public void GetByNameAndType_Should_Return_Correct_Category()
+        {
+            var category = new Category
+            {
+                Name = "UniqueIncomeCategory",
+                Type = CategoryType.Income
+            };
+
+            _categoryRepo.Add(category);
+
+            var fetched = _categoryRepo.GetByNameAndType("UniqueIncomeCategory", CategoryType.Income);
+
+            Assert.IsNotNull(fetched);
+            Assert.AreEqual(category.Name, fetched.Name);
+            Assert.AreEqual(category.Type, fetched.Type);
+        }
+
+        [TestMethod]
+        public void GetByNameAndType_Should_Return_Null_If_Not_Found()
+        {
+            var result = _categoryRepo.GetByNameAndType("NonExistent", CategoryType.Expense);
+            Assert.IsNull(result);
+        }
+
     }
 }

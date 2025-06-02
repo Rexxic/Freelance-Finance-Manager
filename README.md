@@ -42,7 +42,7 @@ Der **Freelance Finance Manager** bietet eine benutzerfreundliche Plattform, um 
 - **MySQL-Verbindung in C# implementieren.**
 - **CRUD-Operationen** (Create, Read, Update, Delete) über das Repository Pattern umsetzen.
 
-### Stufe 3: GUI und Benutzerinteraktion
+### [Stufe 3: GUI und Benutzerinteraktion](Dokumentation/3_GUI_und_Benutzerinteraktion.md)
 
 - **GUI-Entwicklung** mit WPF oder WinForms.
 - **Benutzerinteraktion:** Nutzer können Daten anlegen, ändern und löschen.
