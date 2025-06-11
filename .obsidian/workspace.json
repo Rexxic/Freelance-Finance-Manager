@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dokumentation/1_Konzeption_und_Planung.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Konzeption_und_Planung"
+              "title": "README"
             }
           }
         ]
@@ -183,8 +183,17 @@
   },
   "active": "1fd5105f1c24615e",
   "lastOpenFiles": [
-    "Dokumentation/2_DBModellierung_und_Anbindung.md",
+    "Dokumentation/Chats/Freelance Finanzmanager Planung.md",
+    "Dokumentation/Chats/Projektaufgaben Readme Erstellung.md",
+    "Dokumentation/Chats/Tree .gitignore Integration.md",
+    "Dokumentation/Chats/Projektstatus Freelance Finance.md",
+    "Dokumentation/Chats/ER Model Creation.md",
+    "Dokumentation/Chats/Projektüberblick und Feedback.md",
+    "Dokumentation/Chats/Repository Implementierung Fortschritt.md",
+    "Dokumentation/Chats/Projektdateien Überprüfung.md",
     "Dokumentation/1_Konzeption_und_Planung.md",
+    "Dokumentation/Chats",
+    "Dokumentation/2_DBModellierung_und_Anbindung.md",
     "ER-Diagram.uxf",
     "Dokumentation/3_GUI_und_Benutzerinteraktion.md",
     "Dokumentation/Wireframe Entwurf.png",
@@ -196,7 +205,6 @@
     "TestResults/DeployCedric 2025-06-02 08_41_06/In",
     "TestResults/DeployCedric 2025-06-02 08_41_06",
     "ndcuufyg.cjq~",
-    "hv04vgb5.dgp~",
     "README.md",
     "3_GUI_und_Benutzerinteraktion.md",
     "project-structure.md",
@@ -220,13 +228,6 @@
     "packages/NUnit.4.3.2/NOTICES.md",
     "packages/System.Memory.4.6.0/PACKAGE.md",
     "packages/System.Runtime.CompilerServices.Unsafe.6.1.0/PACKAGE.md",
-    "packages/System.Numerics.Vectors.4.6.0/PACKAGE.md",
-    "packages/System.Buffers.4.6.0/PACKAGE.md",
-    "packages/MySql.Data.9.3.0/README.md",
-    "packages/BouncyCastle.Cryptography.2.5.1/README.md",
-    "packages/BouncyCastle.Cryptography.2.5.1/LICENSE.md",
-    "Dokumentation/UI-Design.md",
-    "Dokumentation/1.md",
-    "Dokumentation/1_Projektidee.md"
+    "packages/System.Numerics.Vectors.4.6.0/PACKAGE.md"
   ]
 }
