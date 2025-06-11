@@ -11,14 +11,12 @@
             "id": "1fd5105f1c24615e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "Dokumentation/Screenshots/Klassendiagramm.png"
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "lucide-image",
+              "title": "Klassendiagramm"
             }
           }
         ]
@@ -183,6 +181,21 @@
   },
   "active": "1fd5105f1c24615e",
   "lastOpenFiles": [
+    "Dokumentation/1_Konzeption_und_Planung.md",
+    "Dokumentation/Screenshots/Klassendiagramm.png",
+    "Dokumentation/Screenshots/MSSQL.jpg",
+    "Dokumentation/Screenshots/Tests.png",
+    "Dokumentation/Screenshots/GUI4.jpg",
+    "Dokumentation/Screenshots/GUI3.jpg",
+    "Dokumentation/Screenshots/GUI2.jpg",
+    "Dokumentation/Screenshots/GUI1.jpg",
+    "Dokumentation/Screenshots/ER-Modell.jpg",
+    "README.md",
+    "Dokumentation/Screenshots",
+    "TestResults/DeployCedric 2025-06-11 23_37_48/In/DESKTOP-89E6S84",
+    "TestResults/DeployCedric 2025-06-11 23_37_48/Out",
+    "TestResults/DeployCedric 2025-06-11 23_37_48/In",
+    "TestResults/DeployCedric 2025-06-11 23_37_48",
     "Dokumentation/Chats/Freelance Finanzmanager Planung.md",
     "Dokumentation/Chats/Projektaufgaben Readme Erstellung.md",
     "Dokumentation/Chats/Tree .gitignore Integration.md",
@@ -191,7 +204,6 @@
     "Dokumentation/Chats/Projektüberblick und Feedback.md",
     "Dokumentation/Chats/Repository Implementierung Fortschritt.md",
     "Dokumentation/Chats/Projektdateien Überprüfung.md",
-    "Dokumentation/1_Konzeption_und_Planung.md",
     "Dokumentation/Chats",
     "Dokumentation/2_DBModellierung_und_Anbindung.md",
     "ER-Diagram.uxf",
@@ -200,26 +212,12 @@
     "yyu545ue.iz2~",
     "ldjpnzpx.41a~",
     "3rf4043f.42h~",
-    "TestResults/DeployCedric 2025-06-02 08_41_06/In/DESKTOP-89E6S84",
-    "TestResults/DeployCedric 2025-06-02 08_41_06/Out",
-    "TestResults/DeployCedric 2025-06-02 08_41_06/In",
-    "TestResults/DeployCedric 2025-06-02 08_41_06",
-    "ndcuufyg.cjq~",
-    "README.md",
     "3_GUI_und_Benutzerinteraktion.md",
     "project-structure.md",
     "packages/MSTest.TestFramework.2.2.10/Icon.png",
-    "packages/MSTest.TestAdapter.2.2.10/Icon.png",
-    "packages/Microsoft.NET.Test.Sdk.17.13.0/Icon.png",
-    "packages/Microsoft.CodeCoverage.17.13.0/Icon.png",
     "packages/NUnit3TestAdapter.5.0.0/docs/README.md",
-    "packages/NUnit3TestAdapter.5.0.0/nunit_256.png",
     "packages/Microsoft.Testing.Extensions.VSTestBridge.1.5.3/PACKAGE.md",
-    "packages/Microsoft.Testing.Extensions.VSTestBridge.1.5.3/Icon.png",
     "packages/Microsoft.Testing.Extensions.Telemetry.1.5.3/PACKAGE.md",
-    "packages/Microsoft.Testing.Extensions.Telemetry.1.5.3/Icon.png",
-    "packages/Microsoft.ApplicationInsights.2.22.0/icon.png",
-    "packages/Microsoft.TestPlatform.ObjectModel.17.12.0/Icon.png",
     "packages/Microsoft.Testing.Platform.MSBuild.1.5.3/PACKAGE.md",
     "packages/Microsoft.Testing.Extensions.TrxReport.Abstractions.1.5.3/PACKAGE.md",
     "packages/Microsoft.Testing.Platform.1.5.3/PACKAGE.md",
@@ -227,7 +225,6 @@
     "packages/NUnit.4.3.2/README.md",
     "packages/NUnit.4.3.2/NOTICES.md",
     "packages/System.Memory.4.6.0/PACKAGE.md",
-    "packages/System.Runtime.CompilerServices.Unsafe.6.1.0/PACKAGE.md",
-    "packages/System.Numerics.Vectors.4.6.0/PACKAGE.md"
+    "packages/System.Runtime.CompilerServices.Unsafe.6.1.0/PACKAGE.md"
   ]
 }
