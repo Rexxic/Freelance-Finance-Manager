@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dokumentation/3_GUI_und_Benutzerinteraktion.md",
+                "file": "Dokumentation/1_Konzeption_und_Planung.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_GUI_und_Benutzerinteraktion"
+              "title": "1_Konzeption_und_Planung"
             }
           }
         ]
@@ -142,20 +142,31 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dokumentation/1_Konzeption_und_Planung.md",
+                "file": "Dokumentation/2_DBModellierung_und_Anbindung.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1_Konzeption_und_Planung"
+              "title": "Outline of 2_DBModellierung_und_Anbindung"
+            }
+          },
+          {
+            "id": "dc631860da6e72a6",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -165,11 +176,18 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
   "active": "1fd5105f1c24615e",
   "lastOpenFiles": [
+    "Dokumentation/2_DBModellierung_und_Anbindung.md",
+    "Dokumentation/1_Konzeption_und_Planung.md",
+    "ER-Diagram.uxf",
+    "Dokumentation/3_GUI_und_Benutzerinteraktion.md",
+    "Dokumentation/Wireframe Entwurf.png",
     "yyu545ue.iz2~",
     "ldjpnzpx.41a~",
     "3rf4043f.42h~",
@@ -180,13 +198,8 @@
     "ndcuufyg.cjq~",
     "hv04vgb5.dgp~",
     "README.md",
-    "Dokumentation/3_GUI_und_Benutzerinteraktion.md",
     "3_GUI_und_Benutzerinteraktion.md",
-    "Dokumentation/2_DBModellierung_und_Anbindung.md",
-    "Dokumentation/1_Konzeption_und_Planung.md",
     "project-structure.md",
-    "UnitTest-Projekt/bin/Debug/de/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
-    "UnitTest-Projekt/bin/Debug/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll",
     "packages/MSTest.TestFramework.2.2.10/Icon.png",
     "packages/MSTest.TestAdapter.2.2.10/Icon.png",
     "packages/Microsoft.NET.Test.Sdk.17.13.0/Icon.png",
@@ -200,7 +213,6 @@
     "packages/Microsoft.ApplicationInsights.2.22.0/icon.png",
     "packages/Microsoft.TestPlatform.ObjectModel.17.12.0/Icon.png",
     "packages/Microsoft.Testing.Platform.MSBuild.1.5.3/PACKAGE.md",
-    "packages/Microsoft.Testing.Platform.MSBuild.1.5.3/Icon.png",
     "packages/Microsoft.Testing.Extensions.TrxReport.Abstractions.1.5.3/PACKAGE.md",
     "packages/Microsoft.Testing.Platform.1.5.3/PACKAGE.md",
     "packages/NUnit.4.3.2/THIRD_PARTY_NOTICES.md",

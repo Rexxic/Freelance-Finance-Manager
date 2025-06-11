@@ -103,54 +103,147 @@ BudgetForecast
 
 ### **4. Klassendiagramm (Basisstruktur in C#)**
 
-```csharp
+```mermaid
+classDiagram
+
+%% ======== Abstract Base Repository ========
+class BaseRepository~T~ {
+  +Add(T entity)
+  +GetById(int id)
+  +GetAll() List~T~
+  +Update(T entity)
+  +Delete(int id)
+}
+
+%% ======== User and Repo ========
 class User {
-    int UserID;
-    string Name;
-    string Email;
-    string PasswordHash;
-    List<Income> Incomes;
-    List<Expense> Expenses;
+  +int UserID
+  +string Name
+  +string Email
+  +string PasswordHash
 }
 
+class UserRepository {
+  +Add(User user)
+  +GetById(int id)
+  +GetAll() List~User~
+  +Update(User user)
+  +Delete(int id)
+}
+UserRepository --|> BaseRepository~User~
+
+%% ======== Income and Repo ========
 class Income {
-    int IncomeID;
-    int UserID;
-    decimal Amount;
-    DateTime Date;
-    Category Category;
-    string Description;
+  +int IncomeID
+  +int UserID
+  +decimal Amount
+  +DateTime Date
+  +int CategoryID
+  +string Description
 }
 
+class IncomeRepository {
+  +Add(Income income)
+  +GetById(int id)
+  +GetAll() List~Income~
+  +Update(Income income)
+  +Delete(int id)
+}
+IncomeRepository --|> BaseRepository~Income~
+
+%% ======== Expense and Repo ========
 class Expense {
-    int ExpenseID;
-    int UserID;
-    decimal Amount;
-    DateTime Date;
-    Category Category;
-    string Description;
+  +int ExpenseID
+  +int UserID
+  +decimal Amount
+  +DateTime Date
+  +int CategoryID
+  +string Description
 }
 
+class ExpenseRepository {
+  +Add(Expense expense)
+  +GetById(int id)
+  +GetAll() List~Expense~
+  +Update(Expense expense)
+  +Delete(int id)
+}
+ExpenseRepository --|> BaseRepository~Expense~
+
+%% ======== Category and Repo ========
 class Category {
-    int CategoryID;
-    string Name;
-    string Type; // "Income" or "Expense"
+  +int CategoryID
+  +string Name
+  +CategoryType Type
 }
+class CategoryRepository {
+  +Add(Category category)
+  +GetById(int id)
+  +GetAll() List~Category~
+  +Update(Category category)
+  +Delete(int id)
+  +GetByNameAndType(string, CategoryType)
+}
+CategoryRepository --|> BaseRepository~Category~
 
+%% ======== TaxEstimate and Repo ========
 class TaxEstimate {
-    int TaxID;
-    int UserID;
-    int Year;
-    decimal EstimatedTaxAmount;
+  +int TaxID
+  +int UserID
+  +int Year
+  +decimal EstimatedTaxAmount
 }
 
-class BudgetForecast {
-    int ForecastID;
-    int UserID;
-    int Month;
-    decimal PlannedIncome;
-    decimal PlannedExpense;
+class TaxEstimateRepository {
+  +Add(TaxEstimate tax)
+  +GetById(int id)
+  +GetAll() List~TaxEstimate~
+  +Update(TaxEstimate tax)
+  +Delete(int id)
 }
+TaxEstimateRepository --|> BaseRepository~TaxEstimate~
+
+%% ======== BudgetForecast and Repo ========
+class BudgetForecast {
+  +int ForecastID
+  +int UserID
+  +int Month
+  +decimal PlannedIncome
+  +decimal PlannedExpense
+}
+
+class BudgetForecastRepository {
+  +Add(BudgetForecast forecast)
+  +GetById(int id)
+  +GetAll() List~BudgetForecast~
+  +Update(BudgetForecast forecast)
+  +Delete(int id)
+}
+BudgetForecastRepository --|> BaseRepository~BudgetForecast~
+
+%% ======== Enums and Utilities ========
+class CategoryType {
+  <<enum>>
+  +Income
+  +Expense
+}
+
+class DatabaseManager {
+  <<static>>
+  +MySqlConnection GetConnection()
+  +void InitializeDatabase()
+  +void AddUser(string name, string email, string password)
+}
+
+%% ======== Associations ========
+User --> "*" Income : owns >
+User --> "*" Expense : owns >
+User --> "*" TaxEstimate : estimates >
+User --> "*" BudgetForecast : plans >
+Income --> Category
+Expense --> Category
+Category --> CategoryType
+
 ```
 
 ---

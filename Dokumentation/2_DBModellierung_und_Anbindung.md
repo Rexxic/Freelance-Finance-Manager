@@ -8,6 +8,64 @@ In dieser Phase wurde das relationale Datenbankmodell erstellt, die Verbindung k
 
 ## 1. Datenbankschema
 
+```mermaid
+erDiagram
+
+    User {
+        int UserID PK
+        string Name
+        string Email
+        string PasswordHash
+    }
+
+    Category {
+        int CategoryID PK
+        string Name
+        string Type
+    }
+
+    Income {
+        int IncomeID PK
+        int UserID FK
+        int CategoryID FK
+        float Amount
+        date Date
+        string Description
+    }
+
+    Expense {
+        int ExpenseID PK
+        int UserID FK
+        int CategoryID FK
+        float Amount
+        date Date
+        string Description
+    }
+
+    TaxEstimate {
+        int TaxID PK
+        int UserID FK
+        int Year
+        float EstimatedTaxAmount
+    }
+
+    BudgetForecast {
+        int ForecastID PK
+        int UserID FK
+        string Month
+        float PlannedIncome
+        float PlannedExpense
+    }
+
+    User ||--o{ Income : has
+    User ||--o{ Expense : has
+    User ||--o{ TaxEstimate : estimates
+    User ||--o{ BudgetForecast : forecasts
+
+    Category ||--o{ Income : categorizes
+    Category ||--o{ Expense : categorizes
+```
+
 - **User**: UserID (PK), Name, Email, PasswordHash
     
 - **Category**: CategoryID (PK), Name, Type (Income/Expense)
@@ -19,7 +77,7 @@ In dieser Phase wurde das relationale Datenbankmodell erstellt, die Verbindung k
 - **TaxEstimate**: TaxID (PK), UserID (FK→User), Year, EstimatedTaxAmount
     
 - **BudgetForecast**: ForecastID (PK), UserID (FK→User), Month, PlannedIncome, PlannedExpense
-    
+	
 
 Die Tabellen werden in `DatabaseManager.InitializeDatabase()` per SQL-Befehle erzeugt.
 
